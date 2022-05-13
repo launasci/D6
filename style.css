@@ -3,43 +3,109 @@
   padding: 0%;
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Red Hat Display", sans-serif;
+}
+
 .fundo {
+  background-color: #e0e8fe;
   display: flex;
-  background-color: blue;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+  background-image: url(./order-summary-component-main/images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100vh;
 }
 
 .container {
+  background-color: #fff;
   display: flex;
-  box-sizing: content-box;
-  background-color: yellow;
-  flex-wrap: wrap;
   flex-direction: column;
-  width: 75%;
-  height: 65%;
-  border-radius: 8%;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 7%;
+  margin-right: 7%;
+  height: 70%;
+  box-shadow: 0px 2px 15px #616060;
 }
 
-.img-music > img {
+.img-music {
+  border-radius: 20px 20px 0 0;
   width: 100%;
-  height: 125%;
-  border-radius: 8% 8% 0% 0%;
+}
+
+.sem-img {
+  padding: 5%;
 }
 
 .cabecalho {
+  margin-top: 10%;
+  margin-bottom: 8%;
+}
+
+.cabecalho > h3 {
+  margin-bottom: 4%;
+}
+
+.cabecalho > p {
+  font-size: 1.2rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #bbc0cc;
+  font-weight: 500;
+}
+
+.caixa-anual {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 5%;
-  margin-top: 18%;
+  border-radius: 10px;
+  width: 90%;
+  height: 25%;
+  margin-left: 5%;
+  margin-bottom: 12%;
+  background-color: #f8f9fe;
 }
 
-p{
-    margin-left: 10%;
+.caixa-anual > img {
+  margin-left: 6%;
+  margin-top: 5%;
+  width: 16%;
+  height: 57%;
 }
 
-.caixa-anual{
-    display: flex;
+.coluna {
+  margin-left: 6%;
+  margin-right: 15%;
+  margin-top: 9%;
 }
+.coluna > h5 {
+  margin-right: 21%;
+  color: #bbc0cc;
+}
+
+.change {
+  margin-top: 11%;
+  margin-left: 3%;
+  margin-right: 5%;
+}
+
+.pagamento {
+  text-decoration: none;
+  background-color: #485ee1;
+  border-radius: 10px;
+  padding: 5% 25% 5% 25%;
+  color: #fff;
+  box-shadow: 0px 2px 15px #616060;
+}
+
+.cancela {
+  margin-top: 11%;
+  color: #bbc0cc;
+  font-weight: 900;
+}
+
+/* ------------- MEDIA QUERIES ---------------- */

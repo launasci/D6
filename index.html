@@ -6,36 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order Summary</title>
     <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="fundo">
       <div class="container">
-        <div class="img-music">
-          <img
-            src="./order-summary-component-main/images/illustration-hero.svg"
-            alt=""
-          />
-        </div>
-        <div class="cabecalho">
-          <h3>Order Summary</h3>
-          <p>
-            You can now listen to millions of songs, audiobooks, and podcasts on
-            any device anywhere you like!
-          </p>
-        </div>
-        <div class="caixa-anual">
-          <img
-            src="./order-summary-component-main/images/icon-music.svg"
-            alt=""
-          />
-            <h4>Annual Plan</h4>
-            <h5>$59.99/year</h5>
-            <div class="change">Change</div>
+        <img
+          class="img-music"
+          src="./order-summary-component-main/images/illustration-hero.svg"
+          alt=""
+        />
+        <div class="sem-img">
+          <div class="cabecalho">
+            <h3>Order Summary</h3>
+            <p>
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
           </div>
-        </div>
-        <div class="opcoes">
-          <div class="pagamento">Proceed to Payment</div>
-          <div class="cancela">Cancelar</div>
+          <div class="caixa-anual">
+            <img
+              src="./order-summary-component-main/images/icon-music.svg"
+              alt=""
+            />
+            <div class="coluna">
+              <h4>Annual Plan</h4>
+              <h5>$59.99/year</h5>
+            </div>
+            <a class="change" href="">Change</a>
+          </div>
+          <div>
+            <a class="pagamento" href="">Proceed to Payment</a>
+            <div class="cancela">Cancel Order</div>
+          </div>
         </div>
       </div>
     </div>
