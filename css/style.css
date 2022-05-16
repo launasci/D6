@@ -17,7 +17,7 @@ body {
   height: 100%;
   flex-wrap: wrap;
   align-content: center;
-  background-image: url(./order-summary-component-main/images/pattern-background-mobile.svg);
+  /* background-image: url(./order-summary-component-main/images/pattern-background-mobile.svg); */
   background-repeat: no-repeat;
   background-size: 100vh;
 }
@@ -113,6 +113,9 @@ body {
 
 @media (min-width: 1440px) {
   .fundo {
+    /* background-image: url(/order-summary-component-main/images/pattern-background-desktop.svg); */
+    background-repeat: no-repeat;
+    background-size: 100vh;
     justify-content: center;
     align-content: center;
   }
