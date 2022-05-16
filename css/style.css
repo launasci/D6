@@ -82,6 +82,7 @@ body {
   margin-right: 15%;
   margin-top: 9%;
 }
+
 .coluna > h5 {
   margin-right: 21%;
   color: #bbc0cc;
@@ -110,4 +111,37 @@ body {
 
 /* ------------- MEDIA QUERIES ---------------- */
 
-/* joaozinho123 */
+@media (min-width: 1440px) {
+  .fundo {
+    justify-content: center;
+    align-content: center;
+  }
+
+  .container {
+    height: 61%;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+  }
+
+  .img-music {
+    margin-top: -35%;
+  }
+
+  .cabecalho {
+    margin-top: 4%;
+  }
+
+  .caixa-anual > img {
+    width: 14%;
+    height: 61%;
+  }
+
+  .coluna {
+    margin-top: 5.5%;
+  }
+
+  .change {
+    margin-top: 8%;
+  }
+}
